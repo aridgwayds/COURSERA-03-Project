@@ -31,7 +31,7 @@ follows:
 
 NOTE: The files in the Inertia Signals folders are not required for this assignment
 
-# UCHI HAR Dataset
+# UCI HAR Dataset
 
 Files required for this assignment are:
   * features.txt:         List of all 561 features.
@@ -53,6 +53,8 @@ Details about the resulting dataset, including transformations and aggregations,
 # Executing the R-Script: Merge.R
 
 After extracting the downloaded zip file, note the path to the "UCI HAR Dataset" folder. Supply the full path to the folder as the parameter to the Merge.R function. For example, if the extracted files were here: C:/RData/UCI HAR Dataset, do the following in the R-console:
-1. source(<full path to Merge.R file>
+
+1. source(<full path to Merge.R file>)
 2. df<-Merge("C:/Rdata/UCI HAR Dataset")
+3. View(df)
            
