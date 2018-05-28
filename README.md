@@ -54,7 +54,7 @@ Details about the resulting dataset, including transformations and aggregations,
 
 After extracting the downloaded zip file, note the path to the "UCI HAR Dataset" folder. Supply the full path to the folder as the parameter to the Merge.R function. For example, if the extracted files were here: C:/RData/UCI HAR Dataset, do the following in the R-console:
 
-1. source(<full path to Merge.R file>)
+1. source(full path to Merge.R file)
 2. dft<-Merge("C:/Rdata/UCI HAR Dataset")
 3. View(dft)
 4. Write the new dataset: write.table(dft,"HCI Summary.txt",sep=" ",row.name=FALSE)
