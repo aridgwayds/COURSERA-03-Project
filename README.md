@@ -47,14 +47,14 @@ Files required for this assignment are:
 
 # Assignment Deliverables
 
-R-script (named Merge.R) which reads, subsets and mutates a combined test & train dataset to yield a tidy dataset containing the averages of mean and std (X, Y, and Z ) variables from the original data set.
+R-script (named run_analysis.R) which reads, subsets and mutates a combined test & train dataset to yield a tidy dataset containing the averages of mean and std (X, Y, and Z ) variables from the original data set.
 Details about the resulting dataset, including transformations and aggregations, see the CodeBook file.
 
-# Executing the R-Script: Merge.R
+# Executing the R-Script: run_analysis.R
 
-After extracting the downloaded zip file, note the path to the "UCI HAR Dataset" folder. Supply the full path to the folder as the parameter to the Merge.R function. For example, if the extracted files were here: C:/RData/UCI HAR Dataset, do the following in the R-console:
+After extracting the downloaded zip file, note the path to the "UCI HAR Dataset" folder. Supply the full path to the folder as the parameter to the run_analysis.R function. For example, if the extracted files were here: C:/RData/UCI HAR Dataset, do the following in the R-console:
 
-1. source(full path to Merge.R file)
+1. source(full path to run_analysis.R file)
 2. dft<-Merge("C:/Rdata/UCI HAR Dataset")
 3. View(dft)
 4. Write the new dataset: write.table(dft,"HCI Summary.txt",sep=" ",row.name=FALSE)
