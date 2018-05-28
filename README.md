@@ -55,11 +55,11 @@ Details about the resulting dataset, including transformations and aggregations,
 After extracting the downloaded zip file, note the path to the "UCI HAR Dataset" folder. Supply the full path to the folder as the parameter to the run_analysis.R function. For example, if the extracted files were here: C:/RData/UCI HAR Dataset, do the following in the R-console:
 
 1. source(full path to run_analysis.R file)
-2. dft<-Merge("C:/Rdata/UCI HAR Dataset")
+2. dft<-run_analysis.R("C:/Rdata/UCI HAR Dataset")
 3. View(dft)
 4. Write the new dataset: write.table(dft,"HCI Summary.txt",sep=" ",row.name=FALSE)
                
  # Export Example
  
- See the file HCI Summary.txt which is a result of running the Merge.R script and exporting the result to disc as: HCI Summary.txt
+ See the file HCI Summary.txt which is a result of running the run_analysis.R script and exporting the result to disc as: HCI Summary.txt
          
